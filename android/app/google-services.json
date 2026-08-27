@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820127048661",
+    "project_id": "project-dsm-aula",
+    "storage_bucket": "project-dsm-aula.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820127048661:android:ebb634e9ff633af65b935c",
+        "android_client_info": {
+          "package_name": "com.example.projeto_tde_aula10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeMwVWHY4m-XiE97tYK0YzAMIPm6JRswU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
