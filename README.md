@@ -94,25 +94,11 @@ Rather than simply displaying data from the API, the application allows users to
 
 The main application code is organized into three areas:
 
-```text
-lib/
-├── models/       # Data models
-├── pages/        # Application screens
-├── services/     # API and authentication services
-├── constants.dart
-└── main.dart     # Application entry point
-```
-
-### Main Responsibilities
-
-**models/**  
-Contains the data structures used by the application.
-
-**pages/**  
-Contains the application's screens and user interface.
-
-**services/**  
-Contains the logic responsible for communication with external APIs and authentication.
+- `models/` — Data models
+- `pages/` — Application screens and user interface
+- `services/` — API and authentication services
+- `constants.dart` — Application constants
+- `main.dart` — Application entry point
 
 This organization keeps the project easier to understand, maintain and evolve.
 
@@ -154,29 +140,29 @@ The project includes:
 
 ## 🖥️ Screenshots
 
-### Login
+<p align="center">
+  <a href="docs/media/01-login-blurred.png">
+    <img src="docs/media/01-login-blurred.png" width="220">
+  </a>
+  <a href="docs/media/02-signup-empty.png">
+    <img src="docs/media/02-signup-empty.png" width="220">
+  </a>
+  <a href="docs/media/03-character-list-filtered.png">
+    <img src="docs/media/03-character-list-filtered.png" width="220">
+  </a>
+</p>
 
-![Login](docs/media/01-login-blurred.png)
-
-### User Registration
-
-![User Registration](docs/media/02-signup-empty.png)
-
-### Character List
-
-![Character List](docs/media/03-character-list-filtered.png)
-
-### Character Details
-
-![Character Details](docs/media/04-character-details.png)
-
-### Character Details — Portuguese
-
-![Character Details Portuguese](docs/media/05-character-details-portuguese.png)
-
-### Planet and Dimension Details
-
-![Planet and Dimension Details](docs/media/06-planet-dimension-details.png)
+<p align="center">
+  <a href="docs/media/04-character-details.png">
+    <img src="docs/media/04-character-details.png" width="220">
+  </a>
+  <a href="docs/media/05-character-details-portuguese.png">
+    <img src="docs/media/05-character-details-portuguese.png" width="220">
+  </a>
+  <a href="docs/media/06-planet-dimension-details.png">
+    <img src="docs/media/06-planet-dimension-details.png" width="220">
+  </a>
+</p>
 
 ---
 
@@ -184,7 +170,7 @@ The project includes:
 
 A short demonstration of the application is available below:
 
-[▶️ Watch the application demo](docs/media/rick-and-morty-flutter-demo-muted-blurred.mp4)
+**[▶️ Watch the application demo](docs/media/rick-and-morty-flutter-demo-muted-blurred.mp4)**
 
 The demonstration shows the authentication flow, character exploration, filtering, character details and navigation through related information.
 
@@ -239,10 +225,6 @@ https://github.com/jeissonrc/flutter-rick-and-morty-app
 
 ---
 
-### 📷 Media
+### 🌐 Language
 
-All screenshots and demonstration media used in this documentation are stored in:
-
-```text
-docs/media/
-```
+🇺🇸 **English** · 🇧🇷 [Português](README.pt-BR.md)
