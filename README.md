@@ -1,4 +1,4 @@
-Flutter Rick and Morty App
+# Flutter Rick and Morty App
 
 <p align="center">
   <strong>A Flutter mobile application integrating Firebase Authentication and the Rick and Morty API.</strong>
@@ -8,171 +8,197 @@ Flutter Rick and Morty App
   Academic project developed during the <strong>Mobile Systems Development (DSM)</strong> course at ULBRA.
 </p>
 
-<p align="center">
-  🇧🇷 <a href="README.pt-BR.md">Versão em Português</a>
-</p>
+---
 
-📱 About the Project
+## 🚀 Highlights
 
-This project was developed as part of the Mobile Systems Development (DSM) course at ULBRA.
+- 📱 Flutter mobile application
+- 🔐 Firebase Authentication
+- 🌐 REST API integration
+- 👽 Rick and Morty character exploration
+- 🔎 Character search and filtering
+- 📄 Character details
+- 🌌 Related location/dimension navigation
+- 📚 API pagination handling
 
-The original objective was to practice mobile application development concepts. The project was expanded to explore integration with an external REST API, authentication, filtering, navigation and related data.
+---
 
-The application combines:
+## 📱 About the Project
 
-Flutter / Dart for the mobile interface
+This project was developed during the **Mobile Systems Development (DSM)** course at ULBRA.
 
-Firebase Authentication for user registration and login
+The initial purpose was to practice mobile application development concepts using Flutter. During development, the project was expanded to explore integration with an external REST API, authentication, filtering, navigation and relationships between resources.
 
-Rick and Morty API for character and location data
+The application combines **Flutter and Dart** with **Firebase Authentication** and the public **Rick and Morty API**.
 
-✨ Features
+The project goes beyond a simple API listing by allowing the user to explore characters, access their details and navigate to information related to their associated locations.
 
-🔐 User registration and login
+---
 
-🔥 Firebase Authentication
+## ✨ Features
 
-👽 Character listing
+### Authentication
 
-🔎 Character filtering/search
+- User registration
+- User login
+- Authentication validation
+- Logout
+- Firebase Authentication integration
 
-📄 Character details
+### Characters
 
-🌌 Related location/dimension details
+- Character listing
+- Character search/filtering
+- Character details
+- API pagination handling
 
-🔗 Navigation between related resources
+### Locations / Dimensions
 
-🌐 REST API consumption
+- Access to the location associated with a character
+- Location details
+- Navigation between related resources
 
-📚 API pagination handling
+---
 
-🛠️ Technologies
+## 🛠️ Technologies
 
-Technology
+### Core
 
-Usage
+- Flutter
+- Dart
 
-Flutter
+### Authentication
 
-Mobile application framework
+- Firebase Authentication
 
-Dart
+### API & Data
 
-Application development
+- HTTP
+- REST API
+- JSON
+- Rick and Morty API
 
-Firebase Authentication
+### Development
 
-User authentication
+- Android Studio
+- Git
+- GitHub
 
-HTTP
+---
 
-API requests
+## 🧩 Project Structure
 
-Rick and Morty API
+The application code is organized into three main areas:
 
-Character and location data
-
-Android Studio
-
-Development environment
-
-🧩 Project Structure
-
+```text
 lib/
-├── models/
-│   ├── characters.dart
-│   ├── planets.dart
-│   └── users.dart
-│
-├── pages/
-│   ├── login_page.dart
-│   ├── cadastre_se_page.dart
-│   ├── characters_list.dart
-│   ├── character_details.dart
-│   └── planet_details.dart
-│
-├── services/
-│   ├── character_service.dart
-│   ├── planet_service.dart
-│   └── firebase/
-│       └── auth/
-│           └── firebase_auth_service.dart
-│
+├── models/       # Data models
+├── pages/        # Application screens
+├── services/     # API and authentication services
 ├── constants.dart
-└── main.dart
+└── main.dart     # Application entry point
+```
 
-🔌 API Integration
+### Main responsibilities
 
-The application consumes the public Rick and Morty API:
+**models/**  
+Contains the data structures used by the application.
+
+**pages/**  
+Contains the application's screens and user interface.
+
+**services/**  
+Contains the logic responsible for API communication and authentication.
+
+This organization keeps the application easier to understand and maintain.
+
+---
+
+## 🔌 API Integration
+
+The application consumes the public **Rick and Morty API**:
 
 https://rickandmortyapi.com/
 
-Character data is loaded from the API, filtered in the application and presented through dedicated detail screens.
+The API is used to retrieve character and location data.
 
-The project also explores related resources, allowing the user to navigate from a character to information about the location associated with that character.
+The application supports:
 
-🔐 Authentication
+- character listing;
+- filtering/search;
+- character details;
+- navigation to related locations;
+- retrieval of multiple API pages.
 
-Firebase Authentication is used to manage the application access flow.
+The project also explores relationships between resources, allowing information obtained from one API endpoint to lead to related data.
+
+---
+
+## 🔐 Authentication
+
+Firebase Authentication is used for the application's authentication flow.
 
 The project includes:
 
-User registration
+1. User registration
+2. User login
+3. Authentication validation
+4. Access to the application
+5. Logout
 
-User login
+---
 
-Authentication validation
+## 📚 Academic Context
 
-Access to the application
+This project was developed during the **Mobile Systems Development (DSM)** course at **ULBRA**.
 
-Logout
+The goal was to apply concepts related to mobile application development, API consumption and integration with external services.
 
-📚 Academic Context
+During development, the project was expanded beyond the initial exercise to explore additional features such as character filtering, related resource navigation and API pagination.
 
-This project was developed during the Mobile Systems Development (DSM) course at ULBRA, applying concepts discussed throughout the course.
+Special thanks to **Professor Daniel Souza** for the concepts and guidance provided throughout the course.
 
-One of the interesting parts of the project was going beyond a basic API consumption example and exploring relationships between the returned data, including character details and their associated locations.
+---
 
-Special thanks to Professor Daniel Souza for the concepts and guidance provided during the course.
+## 🎯 What This Project Demonstrates
 
-🎯 What This Project Demonstrates
+This project demonstrates practical experience with:
 
-This project represents practical experience with:
+- Mobile application development
+- Flutter and Dart
+- Firebase Authentication
+- REST API consumption
+- JSON data handling
+- API pagination
+- Data modeling
+- Filtering
+- Navigation between screens
+- Integration with external services
 
-Mobile application development
+---
 
-Flutter and Dart
+## 📌 Project Status
 
-Authentication flows
+This is an **academic project** developed for learning purposes.
 
-REST API consumption
+The repository preserves the version developed during the course and is intended as a portfolio and study reference.
 
-JSON data handling
+---
 
-API pagination
+## 👤 Author
 
-Data modeling
+**Jeisson Rocha da Cunha**
 
-Filtering
+GitHub:  
+https://github.com/jeissonrc
 
-Screen navigation
+Repository:  
+https://github.com/jeissonrc/flutter-rick-and-morty-app
 
-Integration with external services
+---
 
-⚠️ Project Status
+## 🇧🇷 Português
 
-This is an academic project developed for learning purposes.
+A Portuguese version of this documentation is available in:
 
-The repository preserves the version developed during the course and is intended primarily as a portfolio and study reference.
-
-👤 Author
-
-Jeisson Rocha da Cunha
-
-GitHub: https://github.com/jeissonrc
-
-Repository: https://github.com/jeissonrc/flutter-rick-and-morty-app
-
-🇧🇷 Português
-
-See the Portuguese version.
+[README.pt-BR.md](README.pt-BR.md)
