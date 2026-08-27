@@ -9,8 +9,9 @@
 </p>
 
 <p align="center">
-  🇧🇷 <a href="README.pt-BR.md">Versão em Português</a>
+  🇺🇸 <strong>English</strong> · 🇧🇷 <a href="README.pt-BR.md">Português</a>
 </p>
+
 ---
 
 ## 🚀 Highlights
@@ -21,7 +22,7 @@
 - 👽 Rick and Morty character exploration
 - 🔎 Character search and filtering
 - 📄 Character details
-- 🌌 Related location/dimension navigation
+- 🌌 Related location and dimension navigation
 - 📚 API pagination handling
 
 ---
@@ -30,11 +31,11 @@
 
 This project was developed during the **Mobile Systems Development (DSM)** course at ULBRA.
 
-The initial purpose was to practice mobile application development concepts using Flutter. During development, the project was expanded to explore integration with an external REST API, authentication, filtering, navigation and relationships between resources.
+The initial proposal was to apply concepts related to mobile application development using Flutter. During development, the project was expanded to explore integration with an external REST API, user authentication, filtering, navigation and relationships between resources.
 
 The application combines **Flutter and Dart** with **Firebase Authentication** and the public **Rick and Morty API**.
 
-The project goes beyond a simple API listing by allowing the user to explore characters, access their details and navigate to information related to their associated locations.
+Rather than simply displaying data from the API, the application allows users to explore characters, access their details and navigate through related location and dimension information.
 
 ---
 
@@ -51,11 +52,11 @@ The project goes beyond a simple API listing by allowing the user to explore cha
 ### Characters
 
 - Character listing
-- Character search/filtering
+- Character search and filtering
 - Character details
-- API pagination handling
+- Multiple-page API retrieval
 
-### Locations / Dimensions
+### Locations and Dimensions
 
 - Access to the location associated with a character
 - Location details
@@ -74,7 +75,7 @@ The project goes beyond a simple API listing by allowing the user to explore cha
 
 - Firebase Authentication
 
-### API & Data
+### API and Data
 
 - HTTP
 - REST API
@@ -91,7 +92,7 @@ The project goes beyond a simple API listing by allowing the user to explore cha
 
 ## 🧩 Project Structure
 
-The application code is organized into three main areas:
+The main application code is organized into three areas:
 
 ```text
 lib/
@@ -102,7 +103,7 @@ lib/
 └── main.dart     # Application entry point
 ```
 
-### Main responsibilities
+### Main Responsibilities
 
 **models/**  
 Contains the data structures used by the application.
@@ -111,9 +112,9 @@ Contains the data structures used by the application.
 Contains the application's screens and user interface.
 
 **services/**  
-Contains the logic responsible for API communication and authentication.
+Contains the logic responsible for communication with external APIs and authentication.
 
-This organization keeps the application easier to understand and maintain.
+This organization keeps the project easier to understand, maintain and evolve.
 
 ---
 
@@ -128,18 +129,18 @@ The API is used to retrieve character and location data.
 The application supports:
 
 - character listing;
-- filtering/search;
+- search and filtering;
 - character details;
 - navigation to related locations;
 - retrieval of multiple API pages.
 
-The project also explores relationships between resources, allowing information obtained from one API endpoint to lead to related data.
+The project also explores relationships between resources, allowing information obtained from a character to lead to related location and dimension data.
 
 ---
 
 ## 🔐 Authentication
 
-Firebase Authentication is used for the application's authentication flow.
+Firebase Authentication is used to manage the application's authentication flow.
 
 The project includes:
 
@@ -151,11 +152,49 @@ The project includes:
 
 ---
 
+## 🖥️ Screenshots
+
+### Login
+
+![Login](docs/media/01-login-blurred.png)
+
+### User Registration
+
+![User Registration](docs/media/02-signup-empty.png)
+
+### Character List
+
+![Character List](docs/media/03-character-list-filtered.png)
+
+### Character Details
+
+![Character Details](docs/media/04-character-details.png)
+
+### Character Details — Portuguese
+
+![Character Details Portuguese](docs/media/05-character-details-portuguese.png)
+
+### Planet and Dimension Details
+
+![Planet and Dimension Details](docs/media/06-planet-dimension-details.png)
+
+---
+
+## 🎬 Demo
+
+A short demonstration of the application is available below:
+
+[▶️ Watch the application demo](docs/media/rick-and-morty-flutter-demo-muted-blurred.mp4)
+
+The demonstration shows the authentication flow, character exploration, filtering, character details and navigation through related information.
+
+---
+
 ## 📚 Academic Context
 
 This project was developed during the **Mobile Systems Development (DSM)** course at **ULBRA**.
 
-The goal was to apply concepts related to mobile application development, API consumption and integration with external services.
+The objective was to apply concepts related to mobile application development, API consumption and integration with external services.
 
 During development, the project was expanded beyond the initial exercise to explore additional features such as character filtering, related resource navigation and API pagination.
 
@@ -174,8 +213,8 @@ This project demonstrates practical experience with:
 - JSON data handling
 - API pagination
 - Data modeling
-- Filtering
-- Navigation between screens
+- Filtering and queries
+- Screen navigation
 - Integration with external services
 
 ---
@@ -184,7 +223,7 @@ This project demonstrates practical experience with:
 
 This is an **academic project** developed for learning purposes.
 
-The repository preserves the version developed during the course and is intended as a portfolio and study reference.
+The repository preserves the version developed during the course and serves as a portfolio and study reference.
 
 ---
 
@@ -200,8 +239,10 @@ https://github.com/jeissonrc/flutter-rick-and-morty-app
 
 ---
 
-## 🇧🇷 Português
+### 📷 Media
 
-A Portuguese version of this documentation is available in:
+All screenshots and demonstration media used in this documentation are stored in:
 
-[README.pt-BR.md](README.pt-BR.md)
+```text
+docs/media/
+```
