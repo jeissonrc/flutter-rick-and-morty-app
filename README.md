@@ -168,11 +168,19 @@ The project includes:
 
 ## 🎬 Demo
 
-A short demonstration of the application is available below:
+A short demonstration of the application is available below.
 
-**[▶️ Watch the application demo](docs/media/rick-and-morty-flutter-demo-muted-blurred.mp4)**
+The demo shows the authentication flow, character exploration, filtering, character details and navigation through related information.
 
-The demonstration shows the authentication flow, character exploration, filtering, character details and navigation through related information.
+<p align="center">
+  🎬 <strong>Application Demo</strong>
+</p>
+
+<p align="center">
+  <a href="docs/media/rick-and-morty-flutter-demo-muted-blurred.mp4">
+    ▶️ Watch / Download the full demo video
+  </a>
+</p>
 
 ---
 
