@@ -8,6 +8,9 @@
   Academic project developed during the <strong>Mobile Systems Development (DSM)</strong> course at ULBRA.
 </p>
 
+<p align="center">
+  🇧🇷 <a href="README.pt-BR.md">Versão em Português</a>
+</p>
 ---
 
 ## 🚀 Highlights
