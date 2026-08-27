@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  🇺🇸 <a href="README.md">English Version</a>
+  🇺🇸 <a href="README.md">English</a> · 🇧🇷 <strong>Português</strong>
 </p>
 
 ---
@@ -22,7 +22,7 @@
 - 👽 Exploração de personagens de Rick and Morty
 - 🔎 Busca e filtragem de personagens
 - 📄 Detalhes dos personagens
-- 🌌 Navegação para localizações/dimensões relacionadas
+- 🌌 Navegação por localizações e dimensões relacionadas
 - 📚 Tratamento de paginação da API
 
 ---
@@ -31,11 +31,11 @@
 
 Este projeto foi desenvolvido durante a disciplina de **Desenvolvimento de Sistemas Móveis (DSM)** da ULBRA.
 
-A proposta inicial era aplicar conceitos de desenvolvimento de aplicações mobile utilizando Flutter. Durante o desenvolvimento, o projeto foi ampliado para explorar integração com uma API REST externa, autenticação, filtros, navegação e relacionamento entre dados.
+A proposta inicial era aplicar conceitos relacionados ao desenvolvimento de aplicações mobile utilizando Flutter. Durante o desenvolvimento, o projeto foi ampliado para explorar integração com uma API REST externa, autenticação de usuários, filtros, navegação e relacionamento entre recursos.
 
 A aplicação combina **Flutter e Dart** com **Firebase Authentication** e a API pública **Rick and Morty API**.
 
-O projeto vai além de uma simples listagem de dados, permitindo explorar personagens, acessar seus detalhes e navegar para informações relacionadas às localizações associadas a eles.
+Em vez de apenas exibir os dados retornados pela API, a aplicação permite explorar personagens, consultar seus detalhes e navegar por informações relacionadas às suas localizações e dimensões.
 
 ---
 
@@ -45,7 +45,7 @@ O projeto vai além de uma simples listagem de dados, permitindo explorar person
 
 - Cadastro de usuários
 - Login de usuários
-- Validação de autenticação
+- Validação da autenticação
 - Logout
 - Integração com Firebase Authentication
 
@@ -54,19 +54,19 @@ O projeto vai além de uma simples listagem de dados, permitindo explorar person
 - Listagem de personagens
 - Busca e filtragem
 - Detalhes dos personagens
-- Tratamento de paginação da API
+- Carregamento de múltiplas páginas da API
 
-### Localizações / Dimensões
+### Localizações e Dimensões
 
 - Acesso à localização associada ao personagem
-- Consulta dos detalhes da localização
+- Detalhes da localização
 - Navegação entre recursos relacionados
 
 ---
 
 ## 🛠️ Tecnologias
 
-### Core
+### Base
 
 - Flutter
 - Dart
@@ -94,25 +94,11 @@ O projeto vai além de uma simples listagem de dados, permitindo explorar person
 
 O código principal da aplicação está organizado em três áreas:
 
-```text
-lib/
-├── models/       # Modelos de dados
-├── pages/        # Telas da aplicação
-├── services/     # Serviços de API e autenticação
-├── constants.dart
-└── main.dart     # Ponto de entrada da aplicação
-```
-
-### Principais responsabilidades
-
-**models/**  
-Contém as estruturas de dados utilizadas pela aplicação.
-
-**pages/**  
-Contém as telas e a interface do usuário.
-
-**services/**  
-Contém a lógica responsável pela comunicação com APIs externas e autenticação.
+- `models/` — Modelos de dados
+- `pages/` — Telas e interface da aplicação
+- `services/` — Serviços de API e autenticação
+- `constants.dart` — Constantes da aplicação
+- `main.dart` — Ponto de entrada da aplicação
 
 Essa organização mantém o projeto mais fácil de compreender, manter e evoluir.
 
@@ -134,7 +120,7 @@ A aplicação oferece:
 - navegação para localizações relacionadas;
 - carregamento de múltiplas páginas da API.
 
-O projeto também explora os relacionamentos entre os recursos retornados pela API, permitindo que informações de um personagem direcionem o usuário para dados relacionados à sua localização.
+O projeto também explora os relacionamentos entre os recursos retornados, permitindo que informações de um personagem levem a dados relacionados à sua localização e dimensão.
 
 ---
 
@@ -152,13 +138,59 @@ O projeto contempla:
 
 ---
 
+## 🖥️ Screenshots
+
+<p align="center">
+  <a href="docs/media/01-login-blurred.png">
+    <img src="docs/media/01-login-blurred.png" width="220">
+  </a>
+  <a href="docs/media/02-signup-empty.png">
+    <img src="docs/media/02-signup-empty.png" width="220">
+  </a>
+  <a href="docs/media/03-character-list-filtered.png">
+    <img src="docs/media/03-character-list-filtered.png" width="220">
+  </a>
+</p>
+
+<p align="center">
+  <a href="docs/media/04-character-details.png">
+    <img src="docs/media/04-character-details.png" width="220">
+  </a>
+  <a href="docs/media/05-character-details-portuguese.png">
+    <img src="docs/media/05-character-details-portuguese.png" width="220">
+  </a>
+  <a href="docs/media/06-planet-dimension-details.png">
+    <img src="docs/media/06-planet-dimension-details.png" width="220">
+  </a>
+</p>
+
+---
+
+## 🎬 Demonstração
+
+Uma demonstração curta da aplicação está disponível abaixo.
+
+O vídeo apresenta o fluxo de autenticação, exploração dos personagens, filtros, detalhes dos personagens e navegação pelas informações relacionadas.
+
+<p align="center">
+  🎬 <strong>Demonstração da Aplicação</strong>
+</p>
+
+<p align="center">
+  <a href="docs/media/rick-and-morty-flutter-demo-muted-blurred.mp4">
+    ▶️ Assistir / Baixar o vídeo completo
+  </a>
+</p>
+
+---
+
 ## 📚 Contexto Acadêmico
 
 Este projeto foi desenvolvido durante a disciplina de **Desenvolvimento de Sistemas Móveis (DSM)** da **ULBRA**.
 
 O objetivo foi aplicar conceitos relacionados ao desenvolvimento de aplicações mobile, consumo de APIs e integração com serviços externos.
 
-Durante o desenvolvimento, o projeto foi ampliado para explorar funcionalidades adicionais, como filtros de personagens, navegação entre recursos relacionados e tratamento da paginação da API.
+Durante o desenvolvimento, o projeto foi ampliado para explorar funcionalidades adicionais, como filtros de personagens, navegação entre recursos relacionados e tratamento de paginação da API.
 
 Agradecimento ao **Professor Daniel Souza** pelos conceitos e orientações trabalhados ao longo da disciplina.
 
@@ -185,7 +217,7 @@ Este projeto reúne experiência prática em:
 
 Este é um **projeto acadêmico**, desenvolvido com finalidade de aprendizado.
 
-O repositório preserva a versão desenvolvida durante a disciplina e tem como objetivo servir como portfólio e referência de estudos.
+O repositório preserva a versão desenvolvida durante a disciplina e serve como portfólio e referência de estudos.
 
 ---
 
@@ -201,8 +233,6 @@ https://github.com/jeissonrc/flutter-rick-and-morty-app
 
 ---
 
-## 🇺🇸 English
+### 🌐 Idioma
 
-A versão em inglês desta documentação está disponível em:
-
-[README.md](README.md)
+🇺🇸 [English](README.md) · 🇧🇷 **Português**
